@@ -1,0 +1,659 @@
+@import url(//db.onlinewebfonts.com/c/450fdebcd9b47d4e245c0272405e0cf2?family=MarkOT-Medium);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fbb517;
+    overflow-x: hidden;
+    
+}
+.header{
+    width: 1170px;
+    height: 92px;
+    background-color: #FFE600;
+    position: relative;
+    left: 75px;
+    top: 22px;
+    align-items: center;
+
+
+}
+.logo img{
+    width: 92px;
+    height: 92px;
+}
+.logo{
+    padding-left: 22px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    position:absolute;
+    bottom: 5px;
+    left: 112px;
+    letter-spacing: -1px;
+    width: 923px;
+    font-family: 'MarkOT-Medium', cursive;
+    font-weight:600;
+    font-size: large;
+
+
+}
+
+
+.menu li:hover{
+    background: #da291c;
+    /* transition: background-color .3s ease, color .3s ease; */
+    border-radius: 30px;
+    /* display: inline-block; */
+    /* padding-right: 20px;
+    padding-top: 2px;
+    padding-left: 3p
+     */
+}
+.search img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 28px;
+    left: 1100px;
+}
+.vid1{
+    height: 660px;
+    width: 1172px;
+    position: absolute;
+    left: 72px;
+    top: 18px;
+}
+.products{
+    width: 1170px;
+    height: 772px;
+    background: #EE3124;
+    position: absolute;
+    top:575px;
+    left: 70px;
+}
+.Recipes{
+    width: 1170px;
+    height: 730px;
+    background: #f6be07;
+    position: absolute;
+    top:1415px;
+    left: 70px;
+}
+.Videos{
+    width: 1170px;
+    height: 638px;
+    background: #00aa4f;
+    position: absolute;
+    top:2165px;
+    left: 70px;
+}
+
+.Social{
+    width: 1170px;
+    height: 575px;
+    background: #00aae7;
+    position: absolute;
+    top:2825px;
+    left: 70px;
+}
+
+.footer {
+    position: absolute;
+    top: 3415px;
+    left: 70px;
+    display: flex;
+}
+.Recipes  img{
+    padding-left: 360px;
+    position: relative;
+}
+.products h1{
+    padding-left: 60px;
+    letter-spacing: 2px;
+    font-family: 'MarkOT-Medium', cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 535px;
+
+}
+
+.Recipes h1{
+    padding-left: 60px;
+    letter-spacing: 2px;
+    font-family: 'MarkOT-Medium', cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:0px;
+
+}
+.Videos h1{
+
+        padding-left: 60px;
+        letter-spacing: 2px;
+        font-family: 'MarkOT-Medium', cursive;
+        font-size: 100px;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 375px;
+    
+    }
+    .Social h1{
+        padding-left: 60px;
+        letter-spacing: 2px;
+        font-family: 'MarkOT-Medium', cursive;
+        font-size: 100px;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 330px;
+    
+    }
+    .im2 img{
+        padding-top: 170px;
+
+    }
+    .con1{
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+        align-items: center;
+
+    }
+    .con1 img{
+        width: 50px;
+        height: 50px;
+
+
+    }
+    .box1{
+        width: 336px;
+        height: 525px;
+        background-color: #f8931f;
+        position: absolute;
+        left: 85px;
+        bottom: -317px;
+        color: #ffffff;
+        font-family: 'MarkOT-Medium', cursive;
+        font-size: 35px;
+    }
+    .box1 h3{
+        position: absolute;
+        bottom: 70px;
+        left: 22px;
+    }
+
+    .box2{
+        width: 336px;
+        height: 525px;
+        background-color: #83d8ee;
+        position: absolute;
+        left: 420px;
+        bottom: -317px;
+        font-family: 'MarkOT-Medium', cursive;
+        font-size: 31px;
+        color: #ffffff;
+        font-weight:700;
+        
+
+    }
+    .text{
+        list-style: none;
+        position: absolute;
+        bottom: 62px;
+        right: 13px;
+    }
+    .text1{
+        list-style: none;
+        position: absolute;
+        bottom: 62px;
+        right: 193px;
+    }
+
+    .box3{
+        width: 336px;
+        height: 525px;
+        background-color: #383a6f;
+        position: absolute;
+        left: 756px;
+        bottom: -317px;
+        font-family: 'MarkOT-Medium', cursive;
+        font-size: 31px;
+        color: #ffffff;
+        font-weight:700;
+    }
+    .box1 img{
+        width: 336px;
+        height: 336px;
+        position: relative;
+    }
+    .box2 img{
+        width: 336px;
+        height: 336px;
+        position: relative;
+    }
+    .box3 img{
+        width: 336px;
+        height: 336px;
+        position: relative;
+    }
+    .ar2 img{
+        width: 50px;
+        height: 50px;
+
+    }
+    .ar2{
+        position: absolute;
+        left: 1100px;
+    }
+    .btn {
+        /* transition: background-color .3s ease, color .3s ease; */
+        border-radius: 30px;
+        color: #fff;
+        /* display: inline-block; */
+        font-size: 16px;
+        line-height: 1;
+        padding: 12px 36px;
+        text-decoration: none;
+        text-align: center;
+         background: #da291c;
+          position: absolute;
+           left: 95px;
+    top: 450px;
+    font-family: 'MarkOT-Medium', cursive;
+    font-weight: normal;
+    letter-spacing: -1px;
+    }
+    .btn:hover{
+        background-color: #FFE600;
+    }
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        opacity: 30%;
+        left: 515px;
+    }
+
+    .dot1 {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        opacity: 30%;
+        left: 565px;
+    }
+
+    .dot2 {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        opacity: 30%;
+        left: 540px;
+    }
+    .dot:hover{
+        background-color: #FFE600;
+    }
+
+    .dot1:hover{
+        background-color: #FFE600;
+    }
+
+    .dot2:hover{
+        background-color: #FFE600;
+    }
+
+     .box4{
+        width: 314px;
+        height: 460px;
+        background-color:  #FFE600;
+        position: absolute;
+        left: 95px;
+        bottom: 44px;
+    }  
+    
+    .con2 img{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 1090px;
+        top:440px;
+      }
+        
+    
+          .box5{
+            width: 314px;
+            height: 460px;
+            background-color:  #FFE600;
+            position: absolute;
+            left: 430px;
+            bottom: 44px;
+         } 
+
+         .box6{
+            width: 314px;
+            height: 460px;
+            background-color:  #FFE600;
+            position: absolute;
+            left:765px;
+            bottom: 44px;
+         }
+         .cont2{
+            position: relative;
+            display: flex;
+        
+         }
+         .ar3 img{
+            position: absolute;
+            left: 730px;
+         }
+        
+         .box4 img{
+            width: 314px;
+            height: 280px;
+            position: relative;
+            right: 360px;
+            top: 0px;
+
+         }
+
+         .box5 img{
+            width: 314px;
+            height: 280px;
+            position: relative;
+            right: 360px;
+            top: 0px;
+
+         }
+
+         .box6 img{
+            width: 314px;
+            height: 280px;
+            position: relative;
+            right: 360px;
+            top: 0px;
+
+         }
+         .box4 h3{
+            font-family: 'MarkOT-Medium', cursive;
+            font-size: 23px;
+            padding-left: 32px;
+
+         }
+
+         .box5 h3{
+            font-family: 'MarkOT-Medium', cursive;
+            font-size: 23px;
+            padding-left: 32px;
+
+         }
+
+         .box6 h3{
+            font-family: 'MarkOT-Medium', cursive;
+            font-size: 23px;
+            padding-left: 32px;
+
+         }
+
+         .btn1 {
+            /* transition: background-color .3s ease, color .3s ease; */
+            border-radius: 30px;
+            color: #fff;
+            /* display: inline-block; */
+            font-size: 16px;
+            line-height: 1;
+            padding: 12px 36px;
+            text-decoration: none;
+            text-align: center;
+             background: #da291c;
+              position: absolute;
+               left: 75px;
+        top: 400px;
+        font-family: 'MarkOT-Medium', cursive;
+        font-weight: normal;
+        letter-spacing: -1px;
+        }
+
+        .btn1:hover{
+            background-color: #00c9fc;
+        }
+
+        .dot3 {
+            height: 15px;
+            width: 15px;
+            background-color: rgb(194, 189, 189);
+            border-radius: 50%;
+            position: absolute;
+            top:475px;
+            left: 445px;
+        }
+    
+        .dot4 {
+            height: 15px;
+            width: 15px;
+            background-color: rgb(194, 189, 189);
+            border-radius: 50%;
+            position: absolute;
+            top:475px;
+            left: 470px;
+        }
+        .dot3:hover{
+         background-color: black;
+        }
+
+        .dot4:hover{
+            background-color: black;
+          }
+   .im3{
+    padding-top: 23px;
+
+   }  
+   .vid3{
+    position: absolute;
+    bottom: 80px;
+    left: 70px;
+    display: flex;
+   }   
+   .vid3 h3{
+    font-family: 'MarkOT-Medium', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+
+   }  
+
+   .btn2 {
+    /* transition: background-color .3s ease, color .3s ease; */
+    border-radius: 30px;
+    color: #fff;
+    /* display: inline-block; */
+    font-size: 16px;
+    line-height: 1;
+    padding: 12px 36px;
+    text-decoration: none;
+    text-align: center;
+     background: #da291c;
+      position: absolute;
+       left: 875px;
+top: 300px;
+font-family: 'MarkOT-Medium', cursive;
+font-weight: normal;
+letter-spacing: -1px;
+}
+.btn2:hover{
+    background-color: #FFE600;
+}
+
+.dot5 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top:600px;
+    left: 400px;
+    opacity: 50%;
+}
+
+.dot6 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top:600px;
+    left: 370px;
+    opacity: 50%;
+}
+
+.dot7 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top:600px;
+    left: 430px;
+    opacity: 50%;
+}
+.dot5:hover{
+    background-color: #ff1100;
+}
+
+.dot6:hover{
+    background-color: #ff1100;
+}
+
+.dot7:hover{
+    background-color: #ff1100;
+}
+
+.soc{
+    position: relative;
+    top: 105px;
+   
+}
+.soc1 img{
+    width: 329px;
+    height: 320px;
+}
+.soc1 {
+    position: absolute;
+    bottom: 90px;
+    left: 75px;
+    display: flex;
+
+    
+}
+.soc2 img{
+    width: 159px;
+    height: 155px;
+    padding-left: 15px;
+
+}
+
+.soc3 img{
+    width: 159px;
+    height: 155px;
+    padding-left: 15px;
+
+}
+
+.soc4 img{
+    width: 329px;
+    height: 320px;
+    padding-left: 15px;
+
+}
+
+.soc21 img{
+    width: 159px;
+    height: 155px;
+    padding-left: 15px;
+
+}
+
+.soc31 img{
+    width: 159px;
+    height: 155px;
+    padding-left: 15px;
+    position: relative;
+
+}
+.fac{
+    position: absolute;
+    left: 500px;
+    top: 40px;
+}
+
+.twi{
+    position: absolute;
+    left: 645px;
+    top: 40px;
+}
+
+.ins{
+    position: absolute;
+    left: 790px;
+    top: 40px;
+}
+
+.you{
+    position: absolute;
+    left: 930px;
+    top: 40px;
+}
+
+.bot{
+    position: absolute;
+    display:  flex;
+    list-style: none;
+    right: 170px;
+    top:180px;
+    font-family:  'MarkOT-Medium', cursive;
+    font-size: 15px;
+    
+    
+}
+
+
+.logo1 img{
+    width:90px;
+    height: 90px;
+}
+.logo1{
+    position: absolute;
+    right: 580px;
+    top:250px
+}
+
+.bot2{
+    position: absolute;
+    top:340px;
+    left: 390px;
+    font-family: 'MarkOT-Medium', cursive;
+    font-size: 12px;
+}
+
+
+
+         
+
+
+        
