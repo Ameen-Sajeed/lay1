@@ -43,16 +43,7 @@ body{
 }
 
 
-.menu li:hover{
-    background: #da291c;
-    /* transition: background-color .3s ease, color .3s ease; */
-    border-radius: 30px;
-    /* display: inline-block; */
-    /* padding-right: 20px;
-    padding-top: 2px;
-    padding-left: 3p
-     */
-}
+
 .search img{
     width: 24px;
     height: 24px;
@@ -255,10 +246,8 @@ body{
         left: 1100px;
     }
     .btn {
-        /* transition: background-color .3s ease, color .3s ease; */
         border-radius: 30px;
         color: #fff;
-        /* display: inline-block; */
         font-size: 16px;
         line-height: 1;
         padding: 12px 36px;
@@ -412,10 +401,8 @@ body{
          }
 
          .btn1 {
-            /* transition: background-color .3s ease, color .3s ease; */
             border-radius: 30px;
             color: #fff;
-            /* display: inline-block; */
             font-size: 16px;
             line-height: 1;
             padding: 12px 36px;
@@ -479,10 +466,8 @@ body{
    }  
 
    .btn2 {
-    /* transition: background-color .3s ease, color .3s ease; */
     border-radius: 30px;
     color: #fff;
-    /* display: inline-block; */
     font-size: 16px;
     line-height: 1;
     padding: 12px 36px;
